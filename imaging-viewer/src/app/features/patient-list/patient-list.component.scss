@@ -1,0 +1,30 @@
+.patient-list-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 24px;
+}
+
+.state-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 0;
+
+  &.error {
+    color: #b3261e;
+  }
+}
+
+.patient-row {
+  height: auto !important;
+  padding: 8px 0;
+}
+
+mat-chip-set {
+  margin-top: 4px;
+}

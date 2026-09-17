@@ -1,0 +1,283 @@
+diff --git a/node_modules/xmlbuilder2/LICENSE.txt b/node_modules/xmlbuilder2/LICENSE.txt
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/README.md b/node_modules/xmlbuilder2/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/BuilderFunctions.d.ts b/node_modules/xmlbuilder2/lib/builder/BuilderFunctions.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/BuilderFunctions.js b/node_modules/xmlbuilder2/lib/builder/BuilderFunctions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/BuilderFunctions.js.map b/node_modules/xmlbuilder2/lib/builder/BuilderFunctions.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/BuilderFunctionsCB.d.ts b/node_modules/xmlbuilder2/lib/builder/BuilderFunctionsCB.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/BuilderFunctionsCB.js b/node_modules/xmlbuilder2/lib/builder/BuilderFunctionsCB.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/BuilderFunctionsCB.js.map b/node_modules/xmlbuilder2/lib/builder/BuilderFunctionsCB.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.d.ts b/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.js b/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.js
+old mode 100644
+new mode 100755
+index c839cf5..9b4fd74
+--- a/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.js
++++ b/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.js
+@@ -12,7 +12,11 @@ const util_2 = require("@oozcitak/dom/lib/util");
+ const XMLCBWriter_1 = require("../writers/XMLCBWriter");
+ const JSONCBWriter_1 = require("../writers/JSONCBWriter");
+ const YAMLCBWriter_1 = require("../writers/YAMLCBWriter");
+-const events_1 = require("events");
++// Browser bundlers (esbuild/Vite) resolve the bare "events" specifier to
++// Node's core module and refuse to bundle it, throwing at runtime. Require
++// the installed `events` npm package (a full browser-safe EventEmitter) via
++// a relative path instead, which bypasses that core-module shadowing.
++const events_1 = require("../../../events/events.js");
+ /**
+  * Represents a readable XML document stream.
+  */
+diff --git a/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.js.map b/node_modules/xmlbuilder2/lib/builder/XMLBuilderCBImpl.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/XMLBuilderImpl.d.ts b/node_modules/xmlbuilder2/lib/builder/XMLBuilderImpl.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/XMLBuilderImpl.js b/node_modules/xmlbuilder2/lib/builder/XMLBuilderImpl.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/XMLBuilderImpl.js.map b/node_modules/xmlbuilder2/lib/builder/XMLBuilderImpl.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/dom.d.ts b/node_modules/xmlbuilder2/lib/builder/dom.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/dom.js b/node_modules/xmlbuilder2/lib/builder/dom.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/dom.js.map b/node_modules/xmlbuilder2/lib/builder/dom.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/index.d.ts b/node_modules/xmlbuilder2/lib/builder/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/index.js b/node_modules/xmlbuilder2/lib/builder/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/builder/index.js.map b/node_modules/xmlbuilder2/lib/builder/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/constants.d.ts b/node_modules/xmlbuilder2/lib/constants.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/constants.js b/node_modules/xmlbuilder2/lib/constants.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/constants.js.map b/node_modules/xmlbuilder2/lib/constants.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/index.d.ts b/node_modules/xmlbuilder2/lib/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/index.js b/node_modules/xmlbuilder2/lib/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/index.js.map b/node_modules/xmlbuilder2/lib/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/interfaces.d.ts b/node_modules/xmlbuilder2/lib/interfaces.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/interfaces.js b/node_modules/xmlbuilder2/lib/interfaces.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/interfaces.js.map b/node_modules/xmlbuilder2/lib/interfaces.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/BaseReader.d.ts b/node_modules/xmlbuilder2/lib/readers/BaseReader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/BaseReader.js b/node_modules/xmlbuilder2/lib/readers/BaseReader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/BaseReader.js.map b/node_modules/xmlbuilder2/lib/readers/BaseReader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/JSONReader.d.ts b/node_modules/xmlbuilder2/lib/readers/JSONReader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/JSONReader.js b/node_modules/xmlbuilder2/lib/readers/JSONReader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/JSONReader.js.map b/node_modules/xmlbuilder2/lib/readers/JSONReader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/ObjectReader.d.ts b/node_modules/xmlbuilder2/lib/readers/ObjectReader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/ObjectReader.js b/node_modules/xmlbuilder2/lib/readers/ObjectReader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/ObjectReader.js.map b/node_modules/xmlbuilder2/lib/readers/ObjectReader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/XMLReader.d.ts b/node_modules/xmlbuilder2/lib/readers/XMLReader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/XMLReader.js b/node_modules/xmlbuilder2/lib/readers/XMLReader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/XMLReader.js.map b/node_modules/xmlbuilder2/lib/readers/XMLReader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/YAMLReader.d.ts b/node_modules/xmlbuilder2/lib/readers/YAMLReader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/YAMLReader.js b/node_modules/xmlbuilder2/lib/readers/YAMLReader.js
+old mode 100644
+new mode 100755
+index faf7508..a0c2ae5
+--- a/node_modules/xmlbuilder2/lib/readers/YAMLReader.js
++++ b/node_modules/xmlbuilder2/lib/readers/YAMLReader.js
+@@ -3,7 +3,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.YAMLReader = void 0;
+ const ObjectReader_1 = require("./ObjectReader");
+ const BaseReader_1 = require("./BaseReader");
+-const js_yaml_1 = require("js-yaml");
++let js_yaml_1;
++try {
++    js_yaml_1 = require("js-yaml");
++}
++catch (e) {
++    // Browser bundlers (esbuild/Vite) can't resolve this optional dependency
++    // and throw at runtime on require(). This app never parses YAML, so a
++    // stub that fails only if actually used is sufficient.
++    js_yaml_1 = { load: () => { throw new Error("YAML parsing is not supported in this build."); } };
++}
+ /**
+  * Parses XML nodes from a YAML string.
+  */
+diff --git a/node_modules/xmlbuilder2/lib/readers/YAMLReader.js.map b/node_modules/xmlbuilder2/lib/readers/YAMLReader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/index.d.ts b/node_modules/xmlbuilder2/lib/readers/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/index.js b/node_modules/xmlbuilder2/lib/readers/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/readers/index.js.map b/node_modules/xmlbuilder2/lib/readers/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/BaseCBWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/BaseCBWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/BaseCBWriter.js b/node_modules/xmlbuilder2/lib/writers/BaseCBWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/BaseCBWriter.js.map b/node_modules/xmlbuilder2/lib/writers/BaseCBWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/BaseWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/BaseWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/BaseWriter.js b/node_modules/xmlbuilder2/lib/writers/BaseWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/BaseWriter.js.map b/node_modules/xmlbuilder2/lib/writers/BaseWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/JSONCBWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/JSONCBWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/JSONCBWriter.js b/node_modules/xmlbuilder2/lib/writers/JSONCBWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/JSONCBWriter.js.map b/node_modules/xmlbuilder2/lib/writers/JSONCBWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/JSONWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/JSONWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/JSONWriter.js b/node_modules/xmlbuilder2/lib/writers/JSONWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/JSONWriter.js.map b/node_modules/xmlbuilder2/lib/writers/JSONWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/MapWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/MapWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/MapWriter.js b/node_modules/xmlbuilder2/lib/writers/MapWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/MapWriter.js.map b/node_modules/xmlbuilder2/lib/writers/MapWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/ObjectWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/ObjectWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/ObjectWriter.js b/node_modules/xmlbuilder2/lib/writers/ObjectWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/ObjectWriter.js.map b/node_modules/xmlbuilder2/lib/writers/ObjectWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/XMLCBWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/XMLCBWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/XMLCBWriter.js b/node_modules/xmlbuilder2/lib/writers/XMLCBWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/XMLCBWriter.js.map b/node_modules/xmlbuilder2/lib/writers/XMLCBWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/XMLWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/XMLWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/XMLWriter.js b/node_modules/xmlbuilder2/lib/writers/XMLWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/XMLWriter.js.map b/node_modules/xmlbuilder2/lib/writers/XMLWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/YAMLCBWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/YAMLCBWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/YAMLCBWriter.js b/node_modules/xmlbuilder2/lib/writers/YAMLCBWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/YAMLCBWriter.js.map b/node_modules/xmlbuilder2/lib/writers/YAMLCBWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/YAMLWriter.d.ts b/node_modules/xmlbuilder2/lib/writers/YAMLWriter.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/YAMLWriter.js b/node_modules/xmlbuilder2/lib/writers/YAMLWriter.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/YAMLWriter.js.map b/node_modules/xmlbuilder2/lib/writers/YAMLWriter.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/index.d.ts b/node_modules/xmlbuilder2/lib/writers/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/index.js b/node_modules/xmlbuilder2/lib/writers/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/writers/index.js.map b/node_modules/xmlbuilder2/lib/writers/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/xmlbuilder2.min.js b/node_modules/xmlbuilder2/lib/xmlbuilder2.min.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/xmlbuilder2/lib/xmlbuilder2.min.js.LICENSE.txt b/node_modules/xmlbuilder2/lib/xmlbuilder2.min.js.LICENSE.txt
+old mode 100644
+new mode 100755

@@ -1,0 +1,102 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": {
+    "packageManager": "npm"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "imaging-viewer": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:application",
+          "options": {
+            "browser": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "externalDependencies": [
+              "fs",
+              "path",
+              "url"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular/build:dev-server",
+          "options": {
+            "prebundle": {
+              "exclude": [
+                "@kitware/vtk.js",
+                "@cornerstonejs/core",
+                "@cornerstonejs/tools",
+                "@cornerstonejs/dicom-image-loader",
+                "@cornerstonejs/codec-charls",
+                "@cornerstonejs/codec-libjpeg-turbo-8bit",
+                "@cornerstonejs/codec-openjpeg",
+                "@cornerstonejs/codec-openjph",
+                "xmlbuilder2",
+                "@oozcitak/dom",
+                "@oozcitak/infra",
+                "@oozcitak/url",
+                "@oozcitak/util"
+              ]
+            }
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "imaging-viewer:build:production"
+            },
+            "development": {
+              "buildTarget": "imaging-viewer:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test"
+        }
+      }
+    }
+  }
+}

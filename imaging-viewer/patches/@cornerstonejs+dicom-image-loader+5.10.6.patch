@@ -1,0 +1,762 @@
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/LICENSE b/node_modules/@cornerstonejs/dicom-image-loader/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/README.md b/node_modules/@cornerstonejs/dicom-image-loader/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/codecs/jpeg.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/codecs/jpeg.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/codecs/jpeg.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/codecs/jpeg.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/transferSyntaxes.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/transferSyntaxes.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/transferSyntaxes.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/constants/transferSyntaxes.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/decodeImageFrameWorker.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/decodeImageFrameWorker.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/decodeImageFrameWorker.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/decodeImageFrameWorker.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertPALETTECOLOR.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertPALETTECOLOR.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertPALETTECOLOR.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertPALETTECOLOR.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPixel.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPixel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPixel.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPixel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPlane.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPlane.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPlane.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertRGBColorByPlane.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFull422ByPixel.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFull422ByPixel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFull422ByPixel.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFull422ByPixel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPixel.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPixel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPixel.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPixel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPlane.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPlane.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPlane.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/convertYBRFullByPlane.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchLUTForInstance.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchLUTForInstance.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchLUTForInstance.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchLUTForInstance.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchPaletteData.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchPaletteData.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchPaletteData.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/fetchPaletteData.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/colorSpaceConverters/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/convertColorSpace.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/convertColorSpace.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/convertColorSpace.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/convertColorSpace.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/createImage.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/createImage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/createImage.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/createImage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeImageFrame.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeImageFrame.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeImageFrame.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeImageFrame.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeJPEGBaseline8BitColor.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeJPEGBaseline8BitColor.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeJPEGBaseline8BitColor.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/decodeJPEGBaseline8BitColor.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getImageFrame.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getImageFrame.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getImageFrame.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getImageFrame.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getInstanceModule.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getInstanceModule.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getInstanceModule.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getInstanceModule.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getMinMax.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getMinMax.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getMinMax.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getMinMax.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getScalingParameters.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getScalingParameters.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getScalingParameters.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/getScalingParameters.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/imageIdToURI.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/imageIdToURI.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/imageIdToURI.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/imageIdToURI.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/options.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/options.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/options.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/options.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/rangeRequest.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/rangeRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/rangeRequest.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/rangeRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/streamRequest.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/streamRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/streamRequest.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/streamRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/xhrRequest.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/xhrRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/xhrRequest.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/internal/xhrRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isColorConversionRequired.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isColorConversionRequired.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isColorConversionRequired.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isColorConversionRequired.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isJPEGBaseline8BitColor.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isJPEGBaseline8BitColor.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isJPEGBaseline8BitColor.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isJPEGBaseline8BitColor.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isModalityLutForDisplay.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isModalityLutForDisplay.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isModalityLutForDisplay.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isModalityLutForDisplay.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isNMReconstructable.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isNMReconstructable.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isNMReconstructable.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/isNMReconstructable.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/prefetchPart10Instance.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/prefetchPart10Instance.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/prefetchPart10Instance.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/prefetchPart10Instance.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/registerLoaders.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/registerLoaders.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/registerLoaders.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/registerLoaders.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/removeAFromRGBA.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/removeAFromRGBA.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/removeAFromRGBA.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/removeAFromRGBA.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/setPixelDataType.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/setPixelDataType.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/setPixelDataType.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/setPixelDataType.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/combineFrameInstance.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/combineFrameInstance.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/combineFrameInstance.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/combineFrameInstance.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/extractMultipart.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/extractMultipart.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/extractMultipart.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/extractMultipart.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/findIndexOfString.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/findIndexOfString.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/findIndexOfString.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/findIndexOfString.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getImageQualityStatus.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getImageQualityStatus.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getImageQualityStatus.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getImageQualityStatus.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getPixelData.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getPixelData.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getPixelData.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getPixelData.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getTagValue.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getTagValue.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getTagValue.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/getTagValue.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImageFromRegistry.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImageFromRegistry.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImageFromRegistry.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImageFromRegistry.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage_test.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage_test.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage_test.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/loadImage_test.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/ECGHelpers.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/ECGHelpers.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/ECGHelpers.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/ECGHelpers.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/NMHelpers.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/NMHelpers.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/NMHelpers.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/NMHelpers.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/USHelpers.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/USHelpers.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/USHelpers.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/USHelpers.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/extractPositioningFromMetadata.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/extractPositioningFromMetadata.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/extractPositioningFromMetadata.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/extractPositioningFromMetadata.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getFirstNumberValue.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getFirstNumberValue.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getFirstNumberValue.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getFirstNumberValue.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberString.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberString.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberString.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberString.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValue.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValue.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValue.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValue.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValues.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValues.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValues.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getNumberValues.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getOverlayPlaneModule.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getOverlayPlaneModule.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getOverlayPlaneModule.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getOverlayPlaneModule.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getSequenceItems.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getSequenceItems.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getSequenceItems.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getSequenceItems.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getValue.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getValue.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getValue.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/getValue.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/metaDataProvider.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/metaDataProvider.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/metaDataProvider.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaData/metaDataProvider.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaDataManager.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaDataManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaDataManager.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/metaDataManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/register.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/register.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/register.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadors/register.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/combineFrameInstanceDataset.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/combineFrameInstanceDataset.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/combineFrameInstanceDataset.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/combineFrameInstanceDataset.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager_test.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager_test.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager_test.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataSetCacheManager_test.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataset-from-partial-content.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataset-from-partial-content.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataset-from-partial-content.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/dataset-from-partial-content.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/fileManager.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/fileManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/fileManager.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/fileManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getEncapsulatedImageFrame.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getEncapsulatedImageFrame.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getEncapsulatedImageFrame.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getEncapsulatedImageFrame.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getPixelData.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getPixelData.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getPixelData.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getPixelData.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getUncompressedImageFrame.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getUncompressedImageFrame.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getUncompressedImageFrame.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/getUncompressedImageFrame.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadFileRequest.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadFileRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadFileRequest.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadFileRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadImage.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadImage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadImage.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadImage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadedDataSets.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadedDataSets.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadedDataSets.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/loadedDataSets.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/USHelpers.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/USHelpers.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/USHelpers.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/USHelpers.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/extractPositioningFromDataset.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/extractPositioningFromDataset.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/extractPositioningFromDataset.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/extractPositioningFromDataset.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getImagePixelModule.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getImagePixelModule.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getImagePixelModule.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getImagePixelModule.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getLUTs.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getLUTs.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getLUTs.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getLUTs.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getModalityLUTOutputPixelRepresentation.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getModalityLUTOutputPixelRepresentation.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getModalityLUTOutputPixelRepresentation.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getModalityLUTOutputPixelRepresentation.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getNumberValues.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getNumberValues.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getNumberValues.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getNumberValues.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getOverlayPlaneModule.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getOverlayPlaneModule.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getOverlayPlaneModule.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/getOverlayPlaneModule.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/metaDataProvider.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/metaDataProvider.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/metaDataProvider.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/metaData/metaDataProvider.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseDicomWithInflater.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseDicomWithInflater.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseDicomWithInflater.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseDicomWithInflater.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseImageId.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseImageId.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseImageId.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/parseImageId.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/register.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/register.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/register.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/register.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/retrieveMultiframeDataset.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/retrieveMultiframeDataset.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/retrieveMultiframeDataset.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/retrieveMultiframeDataset.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/unpackBinaryFrame.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/unpackBinaryFrame.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/unpackBinaryFrame.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/imageLoader/wadouri/unpackBinaryFrame.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/init.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/init.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/init.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/init.js
+old mode 100644
+new mode 100755
+index 131e60e..b0dd708
+--- a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/init.js
++++ b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/init.js
+@@ -2,7 +2,16 @@ import { setOptions } from './imageLoader/internal/index.js';
+ import registerLoaders from './imageLoader/registerLoaders.js';
+ import { getWebWorkerManager } from '@cornerstonejs/core';
+ const workerFn = () => {
+-    const instance = new Worker(new URL('./decodeImageFrameWorker.js', import.meta.url), { type: 'module' });
++    // The `new URL('./decodeImageFrameWorker.js', import.meta.url)` pattern
++    // that upstream ships here relies on bundler-specific magic (Vite's
++    // worker plugin / Angular's own web-worker AST scan) that only applies
++    // to project source files, not to files loaded from node_modules via
++    // Angular's esbuild "prebundle.exclude" path. It 404s in that setup.
++    // Instead we reference a pre-bundled, self-contained copy of this same
++    // worker script published as a static asset (see
++    // scripts/build-cornerstone-worker.mjs and package.json's "build:worker"
++    // script), which sidesteps the URL-rewriting entirely.
++    const instance = new Worker('/cornerstone-worker/decodeImageFrameWorker.js', { type: 'module' });
+     return instance;
+ };
+ function init(options = {}) {
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/package.json b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/package.json
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeBigEndian.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeBigEndian.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeBigEndian.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeBigEndian.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeHTJ2K.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeHTJ2K.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeHTJ2K.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeHTJ2K.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEG2000.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEG2000.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEG2000.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEG2000.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-js.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-js.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-js.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-js.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-wasm-not-yet-working.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-wasm-not-yet-working.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-wasm-not-yet-working.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-wasm-not-yet-working.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline8Bit.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline8Bit.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline8Bit.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGBaseline8Bit.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLS.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLS.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLS.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLS.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLossless.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLossless.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLossless.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeJPEGLossless.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeLittleEndian.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeLittleEndian.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeLittleEndian.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeLittleEndian.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeRLE.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeRLE.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeRLE.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/decodeRLE.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/getPixelData.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/getPixelData.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/getPixelData.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/getPixelData.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/isSignedPixelData.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/isSignedPixelData.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/isSignedPixelData.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/decoders/isSignedPixelData.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax_test.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax_test.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax_test.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getMinMax_test.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getPixelDataTypeFromMinMax.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getPixelDataTypeFromMinMax.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getPixelDataTypeFromMinMax.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/getPixelDataTypeFromMinMax.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/isColorImage.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/isColorImage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/isColorImage.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/isColorImage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/bilinear.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/bilinear.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/bilinear.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/bilinear.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/replicate.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/replicate.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/replicate.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/replicate.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/scaleArray.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/scaleArray.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/scaleArray.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/scaling/scaleArray.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/wasmBasePath.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/wasmBasePath.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/wasmBasePath.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/shared/wasmBasePath.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderDataSetWithFetchMore.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderDataSetWithFetchMore.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderDataSetWithFetchMore.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderDataSetWithFetchMore.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderIImage.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderIImage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderIImage.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderIImage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderImageOptions.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderImageOptions.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderImageOptions.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/DICOMLoaderImageOptions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoadRequestFunction.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoadRequestFunction.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoadRequestFunction.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoadRequestFunction.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderDecodeOptions.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderDecodeOptions.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderDecodeOptions.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderDecodeOptions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderOptions.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderOptions.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderOptions.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LoaderOptions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LutType.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LutType.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LutType.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/LutType.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WADORSMetaData.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WADORSMetaData.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WADORSMetaData.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WADORSMetaData.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WebWorkerTypes.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WebWorkerTypes.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WebWorkerTypes.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/WebWorkerTypes.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/XHRRequest.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/XHRRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/XHRRequest.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/XHRRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/index.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/index.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/types/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/version.d.ts b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/version.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/version.js b/node_modules/@cornerstonejs/dicom-image-loader/dist/esm/version.js
+old mode 100644
+new mode 100755

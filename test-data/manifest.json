@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-09-17",
+  "volumeSize": 64,
+  "pixelSpacingMm": 2.0,
+  "sliceThicknessMm": 2.0,
+  "patients": [
+    {
+      "patientId": "patient-01",
+      "patientName": "Synthetic^Patient01",
+      "shape": "sphere",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.10340501867661434401576485803181210184",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.89042075979763689798283708015797076426",
+      "seriesDirectory": "patient-01",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-02",
+      "patientName": "Synthetic^Patient02",
+      "shape": "cylinder",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.17919858620717153618365022338310004752",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.43614736833372718940766565448667965940",
+      "seriesDirectory": "patient-02",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-03",
+      "patientName": "Synthetic^Patient03",
+      "shape": "box",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.40472896699454374910319110398833111025",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.59482893110613786236975043654497285333",
+      "seriesDirectory": "patient-03",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-04",
+      "patientName": "Synthetic^Patient04",
+      "shape": "cylinder",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.72358300070296971869728638350308725551",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.54908518697907380303014050434184077227",
+      "seriesDirectory": "patient-04",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-05",
+      "patientName": "Synthetic^Patient05",
+      "shape": "box",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.46807736146563155799442073975643220934",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.76259366925386475947038609064901654536",
+      "seriesDirectory": "patient-05",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-06",
+      "patientName": "Synthetic^Patient06",
+      "shape": "box",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.53812001960349406046110194106526290394",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.92598120146906447851801246493409382693",
+      "seriesDirectory": "patient-06",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-07",
+      "patientName": "Synthetic^Patient07",
+      "shape": "box",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.70661326068020629110959570463085080345",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.39347642208885499142217317261058112978",
+      "seriesDirectory": "patient-07",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-08",
+      "patientName": "Synthetic^Patient08",
+      "shape": "cylinder",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.38423422181961055011226298645356156841",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.96316233696267728322145075608158431580",
+      "seriesDirectory": "patient-08",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-09",
+      "patientName": "Synthetic^Patient09",
+      "shape": "cylinder",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.15709351348905786854482080043943903592",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.7357624699589980341243492818713294924",
+      "seriesDirectory": "patient-09",
+      "sliceCount": 64
+    },
+    {
+      "patientId": "patient-10",
+      "patientName": "Synthetic^Patient10",
+      "shape": "cylinder",
+      "dimensions": {
+        "x": 64,
+        "y": 64,
+        "z": 64
+      },
+      "pixelSpacingMm": 2.0,
+      "sliceThicknessMm": 2.0,
+      "studyInstanceUID": "1.2.826.0.1.3680043.8.498.18036904975865304911377025997759927103",
+      "seriesInstanceUID": "1.2.826.0.1.3680043.8.498.58999125098654833539550379793285119878",
+      "seriesDirectory": "patient-10",
+      "sliceCount": 64
+    }
+  ]
+}

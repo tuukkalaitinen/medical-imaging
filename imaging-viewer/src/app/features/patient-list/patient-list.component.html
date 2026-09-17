@@ -1,0 +1,32 @@
+<div class="patient-list-page">
+  <h1>Patients</h1>
+  <p class="subtitle">Synthetic volumetric scans &mdash; select a patient to view their 3D volume.</p>
+
+  @if (manifestService.loading()) {
+    <div class="state-row">
+      <mat-spinner diameter="32"></mat-spinner>
+      <span>Loading manifest&hellip;</span>
+    </div>
+  } @else if (manifestService.error()) {
+    <div class="state-row error">
+      <mat-icon>error_outline</mat-icon>
+      <span>{{ manifestService.error() }}</span>
+    </div>
+  } @else {
+    <mat-nav-list>
+      @for (patient of manifestService.patients(); track patient.patientId) {
+        <a mat-list-item [routerLink]="['/viewer', patient.patientId]" class="patient-row">
+          <mat-icon matListItemIcon>{{ shapeIcon(patient.shape) }}</mat-icon>
+          <span matListItemTitle>{{ patient.patientName }} ({{ patient.patientId }})</span>
+          <span matListItemLine>
+            <mat-chip-set>
+              <mat-chip>{{ patient.shape }}</mat-chip>
+              <mat-chip>{{ patient.dimensions.x }}&times;{{ patient.dimensions.y }}&times;{{ patient.dimensions.z }}</mat-chip>
+              <mat-chip>{{ patient.sliceCount }} slices</mat-chip>
+            </mat-chip-set>
+          </span>
+        </a>
+      }
+    </mat-nav-list>
+  }
+</div>

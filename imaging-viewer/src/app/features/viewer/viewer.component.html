@@ -1,0 +1,50 @@
+<div class="viewer-page">
+  <div class="viewer-header">
+    <a mat-icon-button routerLink="/">
+      <mat-icon>arrow_back</mat-icon>
+    </a>
+    @if (patient(); as p) {
+      <div class="patient-info">
+        <h1>{{ p.patientName }}</h1>
+        <span class="meta">
+          {{ p.patientId }} &middot; {{ p.shape }} &middot;
+          {{ p.dimensions.x }}&times;{{ p.dimensions.y }}&times;{{ p.dimensions.z }} voxels
+        </span>
+      </div>
+    }
+
+    <span class="spacer"></span>
+
+    @if (status() === 'ready') {
+      <mat-button-toggle-group [value]="activePreset()" (change)="setPreset($event.value)">
+        @for (preset of presets; track preset) {
+          <mat-button-toggle [value]="preset">{{ preset }}</mat-button-toggle>
+        }
+      </mat-button-toggle-group>
+      <button mat-stroked-button (click)="resetCamera()">
+        <mat-icon>restart_alt</mat-icon>
+        Reset view
+      </button>
+    }
+  </div>
+
+  <div class="viewport-container">
+    @if (status() === 'loading') {
+      <div class="state-overlay">
+        <mat-spinner diameter="48"></mat-spinner>
+        <span>Loading volume&hellip;</span>
+      </div>
+    }
+    @if (status() === 'error') {
+      <div class="state-overlay error">
+        <mat-icon>error_outline</mat-icon>
+        <span>{{ errorMessage() }}</span>
+      </div>
+    }
+    <div #viewportElement class="cornerstone-element"></div>
+  </div>
+
+  @if (status() === 'ready') {
+    <p class="hint">Left-drag to orbit &middot; right-drag to zoom &middot; middle-drag to pan</p>
+  }
+</div>

@@ -1,0 +1,73 @@
+diff --git a/node_modules/@oozcitak/url/LICENSE b/node_modules/@oozcitak/url/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/README.md b/node_modules/@oozcitak/url/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLAlgorithm.d.ts b/node_modules/@oozcitak/url/lib/URLAlgorithm.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLAlgorithm.js b/node_modules/@oozcitak/url/lib/URLAlgorithm.js
+old mode 100644
+new mode 100755
+index 9e209a8..3b214cd
+--- a/node_modules/@oozcitak/url/lib/URLAlgorithm.js
++++ b/node_modules/@oozcitak/url/lib/URLAlgorithm.js
+@@ -44,7 +44,17 @@ exports.asciiSerializationOfAnOrigin = asciiSerializationOfAnOrigin;
+ const util_1 = require("@oozcitak/util");
+ const interfaces_1 = require("./interfaces");
+ const infra_1 = require("@oozcitak/infra");
+-const url_1 = require("url");
++let url_1;
++try {
++    url_1 = require("url");
++}
++catch (e) {
++    // Browser bundlers (esbuild/Vite) resolve the "url" specifier to Node's
++    // core module and refuse to bundle it, throwing at runtime. domainToASCII/
++    // domainToUnicode are only needed for internationalized-domain URL parsing,
++    // which this app never does, so an ASCII-passthrough stub is sufficient.
++    url_1 = { domainToASCII: (domain) => domain, domainToUnicode: (domain) => domain };
++}
+ let _validationErrorCallback;
+ /**
+  * Default ports for a special URL scheme.
+diff --git a/node_modules/@oozcitak/url/lib/URLAlgorithm.js.map b/node_modules/@oozcitak/url/lib/URLAlgorithm.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLImpl.d.ts b/node_modules/@oozcitak/url/lib/URLImpl.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLImpl.js b/node_modules/@oozcitak/url/lib/URLImpl.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLImpl.js.map b/node_modules/@oozcitak/url/lib/URLImpl.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLSearchParamsImpl.d.ts b/node_modules/@oozcitak/url/lib/URLSearchParamsImpl.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLSearchParamsImpl.js b/node_modules/@oozcitak/url/lib/URLSearchParamsImpl.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/URLSearchParamsImpl.js.map b/node_modules/@oozcitak/url/lib/URLSearchParamsImpl.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/index.d.ts b/node_modules/@oozcitak/url/lib/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/index.js b/node_modules/@oozcitak/url/lib/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/index.js.map b/node_modules/@oozcitak/url/lib/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/interfaces.d.ts b/node_modules/@oozcitak/url/lib/interfaces.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/interfaces.js b/node_modules/@oozcitak/url/lib/interfaces.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@oozcitak/url/lib/interfaces.js.map b/node_modules/@oozcitak/url/lib/interfaces.js.map
+old mode 100644
+new mode 100755

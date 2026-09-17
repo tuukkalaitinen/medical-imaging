@@ -1,0 +1,21 @@
+# Node / Angular app
+imaging-viewer/node_modules/
+imaging-viewer/dist/
+imaging-viewer/.angular/
+imaging-viewer/public/cornerstone-worker/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+.junie/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
